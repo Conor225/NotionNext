@@ -33,45 +33,7 @@ export const SideBar = props => {
 
   return (
     <>
-      {/* 目录 */}
-      {post?.toc && post?.toc.length > 2 && (
-        <aside className='w-full rounded shadow overflow-hidden mb-6 pb-4'>
-          <h3 className='text-sm bg-gray-100 text-gray-700 dark:bg-hexo-black-gray dark:text-gray-200 py-3 px-4 dark:border-hexo-black-gray border-b'>
-            {locale.COMMON.TABLE_OF_CONTENTS}
-          </h3>
-          <Catalog toc={post?.toc} />
-        </aside>
-      )}
-
-      {/* 分类 */}
-      <aside className='w-full rounded shadow overflow-hidden mb-6'>
-        <h3 className='text-sm bg-gray-100 text-gray-700 dark:bg-hexo-black-gray dark:text-gray-200 py-3 px-4 dark:border-hexo-black-gray border-b'>
-          {locale.COMMON.CATEGORY}
-        </h3>
-
-        <div className='p-4'>
-          <ul className='list-reset leading-normal'>
-            {categoryOptions?.map(category => {
-              return (
-                <Link
-                  key={category.name}
-                  href={`/category/${category.name}`}
-                  passHref
-                  legacyBehavior>
-                  <li>
-                    {' '}
-                    <a
-                      href={`/category/${category.name}`}
-                      className='text-gray-darkest text-sm hover:underline'>
-                      {category.name}({category.count})
-                    </a>
-                  </li>
-                </Link>
-              )
-            })}
-          </ul>
-        </div>
-      </aside>
+      
 
      
 
