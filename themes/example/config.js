@@ -15,6 +15,6 @@ const CONFIG = {
   // 文章页面布局
   EXAMPLE_ARTICLE_LAYOUT_VERTICAL: false, // 文章详情，左右布局改为上下布局
   EXAMPLE_ARTICLE_HIDDEN_NOTIFICATION: false // 文章详情隐藏公告
-  EXAMPLE_ARTICLE_sidebar：false 
+
 }
 export default CONFIG
