@@ -1,3 +1,4 @@
+
 'use client'
 
 import Comment from '@/components/Comment'
@@ -19,9 +20,9 @@ import { Header } from './components/Header'
 import { PostLock } from './components/PostLock'
 import { PostMeta } from './components/PostMeta'
 import SearchInput from './components/SearchInput'
+import { SideBar } from './components/SideBar'
 import TitleBar from './components/TitleBar'
 import CONFIG from './config'
-import { SideBar } from './components/SideBar'
 import { Style } from './style'
 
 /**
@@ -40,7 +41,7 @@ const LayoutBase = props => {
     post && siteConfig('EXAMPLE_ARTICLE_LAYOUT_VERTICAL', false, CONFIG)
 
   // 网站左右布局颠倒
-  const LAYOUT_SIDEBAR_REVERSE = siteConfig('LAYOUT_SIDEBAR_REVERSE', true)
+  const LAYOUT_SIDEBAR_REVERSE = siteConfig('LAYOUT_SIDEBAR_REVERSE', false)
 
   return (
     <div
