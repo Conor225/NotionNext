@@ -21,6 +21,7 @@ import { PostMeta } from './components/PostMeta'
 import SearchInput from './components/SearchInput'
 import TitleBar from './components/TitleBar'
 import CONFIG from './config'
+import { SideBar } from './components/SideBar'
 import { Style } from './style'
 
 /**
