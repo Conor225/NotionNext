@@ -13,6 +13,6 @@ const CONFIG = {
   NOBELIUM_MENU_SEARCH: false, // 显示搜索
   NOBELIUM_MENU_RSS: false, // 显示订阅
 
-  NOBELIUM_AUTO_COLLAPSE_NAV_BAR: true // 页头导航栏动画
+  NOBELIUM_AUTO_COLLAPSE_NAV_BAR: false // 页头导航栏动画
 }
 export default CONFIG
